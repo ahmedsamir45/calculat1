@@ -1,0 +1,16 @@
+def power(base_num, pow_num):
+    result = 1
+    
+    for index in range(pow_num):
+        
+        result = result*base_num
+
+        
+    return result
+
+
+ase_num = int(input('enter the first number'))
+ow_num =  int(input('enter the second number'))
+
+
+print(power(base_num , pow_num ))
